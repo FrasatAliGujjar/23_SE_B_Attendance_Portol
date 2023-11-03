@@ -52,6 +52,7 @@ let S_1219 = "";
 let S_1220 = "";
 let S_1244 = "";
 let S_1127 = "";
+let S_1222 = "";
 
 
 // ==============================    1171      ======================================
@@ -1223,6 +1224,36 @@ function A_1127() {
 
 
 
+
+
+
+
+
+
+// ==============================    1220      ======================================
+// function P_1220() {
+
+//     document.getElementById('P_1220').style.background = 'green';
+//     document.getElementById('A_1220').style.background = 'gray';
+
+//     S_1220 = "    P"; present++
+// }
+function A_1222() {
+    document.getElementById('A_1222').style.background = 'red';
+    document.getElementById('P_1222').style.background = 'gray';
+
+    document.getElementById('A_1222').style.display = 'none';
+    document.getElementById('A_1222').style.cursor = "no-drop";
+
+    S_1222 = "*1222*  "; absent++;
+}
+
+
+
+
+
+
+
 // ================================================================
 
 function crwhatsapp() {
@@ -1319,6 +1350,7 @@ function crwhatsapp() {
         + S_1220
         + S_1244
         + S_1127
+        + S_1222
 
 
 
@@ -1426,7 +1458,7 @@ function grwhatsapp() {
         + S_1220
         + S_1244
         + S_1127
-
+        + S_1222
 
 
         + "-------------------------------" + "%0a"
