@@ -1266,7 +1266,7 @@ function crwhatsapp() {
 
 
 
-    let final_present = 51 - absent;
+    let final_present = 52 - absent;
 
 
     let url = "http://wa.me/923261905223?text="
@@ -1285,11 +1285,11 @@ function crwhatsapp() {
         + "-------------------------------" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
-        + "*Total Present :*" + "    " + (51 - absent) + "%0a"
+        + "*Total Present :*" + "    " + (52 - absent) + "%0a"
         + " " + "%0a"
         + "*Total Absent :*" + "    " + absent + "%0a"
         + " " + "%0a"
-        + "*Percentage :*" + "       " + (final_present / 51) * 100 + "%" + "%0a"
+        + "*Percentage :*" + "       " + (final_present / 52) * 100 + "%" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
         + "-------------------------------" + "%0a"
@@ -1374,7 +1374,7 @@ function grwhatsapp() {
     var sub = e.options[e.selectedIndex].text;
 
 
-    let final_present = 51 - absent;
+    let final_present = 52 - absent;
 
 
     let url = "http://wa.me/923267397634?text="
@@ -1393,11 +1393,11 @@ function grwhatsapp() {
         + "-------------------------------" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
-        + "*Total Present :*" + "    " + (51 - absent) + "%0a"
+        + "*Total Present :*" + "    " + (52 - absent) + "%0a"
         + " " + "%0a"
         + "*Total Absent :*" + "    " + absent + "%0a"
         + " " + "%0a"
-        + "*Percentage :*" + "       " + (final_present / 51) * 100 + "%" + "%0a"
+        + "*Percentage :*" + "       " + (final_present / 52) * 100 + "%" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
         + "-------------------------------" + "%0a"
